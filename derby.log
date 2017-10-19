@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Oct 18 22:49:17 IST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015f-307f-1a87-0000102df758 
+on database directory memory:/home/abzooba/work/workspace/MyGateJPA/testdb with class loader java.net.URLClassLoader@45dc9ab7 
+Loaded from file:/home/abzooba/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_60-b27
+user.dir=/home/abzooba/work/workspace/MyGateJPA
+os.name=Linux
+os.arch=amd64
+os.version=3.16.0-38-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
