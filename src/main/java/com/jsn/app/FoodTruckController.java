@@ -55,8 +55,8 @@ public class FoodTruckController {
 		return foodTruckService.getFoodTruckByExpiryDate(expiryDateJson);
 	}
 
-	@RequestMapping("/foodtrucks/location/{location}")
-	public FoodTruck getFoodTruckByLocation(@PathVariable String locations) {
+	@RequestMapping(method = RequestMethod.POST, value = "/foodtrucks/location")
+	public FoodTruck getFoodTruckByLocation(@RequestBody String locations) {
 
 		return foodTruckService.getFoodTruckByLocation(locations);
 	}
