@@ -30,6 +30,7 @@ This app provides an API which allows following operations on this(https://data.
   * Content-Type: application/json;charset=UTF-8
   * Request Body: {"searchdate":"*expiryDateToSearch*"}
   * Request Body Example: `{"searchdate":"02/15/2025 12:00:00 AM"}`
+  * Data Format : `MM/dd/yyyy HH:mm:ss aa`
   
 #### 4. Add new foodtruck entry to the dataset :
   * Request Type : POST
